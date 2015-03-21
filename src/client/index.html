@@ -1,0 +1,52 @@
+
+<head>
+  <title> Trello </title>
+</head>
+
+<!-- ------------------------------------------------------------------------------------------ -->
+
+<body>
+  <h1> Cards </h1>
+  <h2> Items </h2>
+
+  {{> list nr="1"}}
+  {{> list nr="2"}}
+  {{> list nr="3"}}
+</body>
+
+<!-- ------------------------------------------------------------------------------------------ -->
+
+<template name="list">
+  <div class="container">
+    {{> addCard nr=nr}}
+    <ul id="sortable{{nr}}" class="connectedSortable">
+      {{#each items nr}}
+        <li>
+          {{> item}}
+        </li>
+      {{/each}}
+    </ul>
+  </div>
+</template>
+
+<!-- ------------------------------------------------------------------------------------------ -->
+
+<template name="addCard">
+  <div class="card">
+  + <input type="text" id="text"/>
+  </div>
+</template>
+
+<!-- ------------------------------------------------------------------------------------------ -->
+
+<template name="item">
+  <div>
+    {{#if isEditing}}
+      <input type="text" id="edit" value="{{title}}" />
+    {{else}}
+      {{title}}
+    {{/if}}
+  </div>
+</template>
+
+<!-- ------------------------------------------------------------------------------------------ -->

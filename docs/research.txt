@@ -1,0 +1,4 @@
+
+	meteor add mrt:jquery-ui
+
+	jqueryui.com/sortable
