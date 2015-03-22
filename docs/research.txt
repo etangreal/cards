@@ -1,4 +1,62 @@
 
+// ------------------------------------------------------------------------------------------------
+// SORTABLE
+// ------------------------------------------------------------------------------------------------
+
 	meteor add mrt:jquery-ui
 
 	jqueryui.com/sortable
+	jqueryui.com/sortable/#connect-lists
+	api.jqueryui.com/sortable/#event-receive
+	
+	meteor.com/blog/2013/09/13/previewing-meteors-new-rendering-engine-reactive-sortable-lists
+	blog.differential.com/sortable-lists-in-meteor-using-jquery-ui
+
+	stackoverflow.com/questions/13842137/optimal-way-to-save-order-of-jqueryui-sortable-list-with-meteor
+	stackoverflow.com/questions/14844274/i-got-jquery-ui-sortable-working-with-meteor-templates-but-is-it-a-bad-hack
+
+	github.com/rgm/meteor-jquery-ui-sortable
+	javabeat.net/jqueryui-sortable-example
+
+	tutorialspoint.com/jqueryui/jqueryui_sortable.htm
+
+// ------------------------------------------------------------------------------------------------
+// ORDERED LIST
+// ------------------------------------------------------------------------------------------------
+
+	docs.meteor.com/#/full/sortspecifiers
+
+	stackoverflow.com/questions/9051690/database-collections-arbitrary-but-specific-order
+	gist.github.com/wfreeman/1700270
+
+	stackoverflow.com/questions/11910409/custom-sort-specifiers-in-meteor
+
+	stackoverflow.com/questions/3016019/jquery-ui-sortable-serialize-multiple-columns
+
+// ------------------------------------------------------------------------------------------------
+// MATERIAL DESIGN
+// ------------------------------------------------------------------------------------------------
+
+	google.com/design/spec/material-design/introduction.html
+	google.ch/design/#resources
+	google.com/webdesigner
+
+// ------------------------------------------------------------------------------------------------
+// ANGULAR
+// ------------------------------------------------------------------------------------------------
+
+	angular.io
+
+	material.angularjs.org
+	ionicmaterial.com
+
+	angular-ui.github.io/bootstrap/#/top
+
+	eisenbergeffect.bluespire.com/leaving-angular
+
+	aurelia.io
+	blog.durandal.io
+
+// ------------------------------------------------------------------------------------------------
+// END
+// ------------------------------------------------------------------------------------------------
